@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+  {% block content %}
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">Curry Kari</span>
+      <span class="site-heading-lower">Indian food at finger tips</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Curry Kari</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">What can I cook?</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="products.html">Recipes</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="products.html">Eat outside</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="store.html">basics</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'img/thali-veg.jpeg' %}" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-4 rounded">
+            <h2 class="section-heading mb-30">
+              <span class="section-heading-upper">Enjoy premium content</span>
+              <span class="section-heading-lower">Join us</span>
+            </h2>
+            <p class="mb-3">Do you know what is sothi? <br>Has someone told you that there is a cooking order for spices? <br><br>Discover exclusive amazing recipes and cooking tips you will find nowhere else just for you. <br><br>Throw in ingredients you have in your fridge and on your shelf on this website, we tell you what and how to cook for today. <br>You said Great? <br><br>Then, don't wait...
+            </p>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="#">Register for free today!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Indian Food</span>
+                <span class="section-heading-lower">Understanding Indian food philosophy</span>
+              </h2>
+              <p class="mb-0">There is not one Indian cuisine but there are Indian cuisines. The same thing can be said for Indian culture, although, there is an unity in India.	Indian cuisines have a philosophy, which identify Indian foods. Indian cuisines tend to blend various and numerous ingredients into a perfect marriage. Garam masala power is for instance a mix of 7 to 20 spices. 
+              <br>
+              <br>
+              <h3><em>The ultimate goal resides in making a perfect dish in which each ingredient gives its best to the others.</em></h3>
+              <br>
+              <br>
+              Transformation of products is key here. The raw products whether meat, sea food or vegetables cannot be preserved in their initial form. A lamb leg curry will be looking the same as lamb breast one but the taste will be so different not only because of the meat parts but also ingredients used. This philosophy differs greatly from other cuisines like French, Japanese, Chinese...  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  {% endblock %}
