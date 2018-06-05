@@ -1,7 +1,5 @@
-CurryKari/CurryKari/settings/dev.py
-CurryKari/CurryKari/settings/production.py
-CurryKari/CurryKari/aws/
-CurryKari/.gitignore
+CurryKari/settings/local.py
+CurryKari/settings/production.py
 
 .DS_Store
 bin/
